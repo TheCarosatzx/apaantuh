@@ -632,6 +632,3 @@ fs.watchFile(file, () => {
 	delete require.cache[file]
 	require(file)
 })
-// listening the server
-app.listen(app.get('port'), () => {
-console.log('Server on port ', app.get('port')); });
