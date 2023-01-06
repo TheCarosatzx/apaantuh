@@ -3,6 +3,7 @@ const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, g
 const fs = require('fs')
 const util = require('util')
 const chalk = require('chalk')
+const cheerio = require('cheerio')
 const { exec, spawn, execSync } = require("child_process")
 const axios = require('axios')
 const path = require('path')
